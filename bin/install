@@ -13,7 +13,7 @@ install_erlang() {
     ensure_kerl_setup
     local build_name
 
-    build_name="asdf_$ASDF_INSTALL_VERSION"
+    build_name="$ASDF_INSTALL_VERSION"
 
     export MAKEFLAGS="-j$ASDF_CONCURRENCY"
 
